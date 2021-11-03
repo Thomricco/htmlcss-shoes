@@ -8,11 +8,42 @@
     margin: 0 auto;
 }
 
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl {
+    float: left;
+}
+
+.row {
+    position: relative;
+}
+
+.push {
+    position: absolute;
+    z-index: 1;
+    margin-left: 1000px;
+    position: fixed;
+}
+
+.push a {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+a {
+    background: white;
+    border-radius: 20px;
+}
+
+
+
 .box {
     height: 100vh;
     position: relative;
-    background-size: cover;
-    cursor: pointer;
 }
 
 .text {

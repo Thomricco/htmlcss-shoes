@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.box {
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.red {
+    color: red;
+}
+
+.box-1 {
+    background: rgb(221, 31, 31);
+}
+
+.box-2 {
+    background: green;
+}
+
+.box-3 {
+    background: yellow;
+}
+
+.box-content {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shose-1 {
+    background: url("../img/01.png") no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.shose-2 {
+    background: url("../img/02.png") no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.shose-3 {
+    background: url("../img/03.png") no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
